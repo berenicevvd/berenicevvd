@@ -16,6 +16,7 @@
 
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="robots" content="noindex,nofollow">
 		<title>CV Bérénice Viviand</title>
 	</head>
 
@@ -43,18 +44,13 @@
         <li><a href="#Plus">Plus</a></li> 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#Contact" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#mail">Mail</a></li>
-            <li><a href="#rsx">Réseaux Sociaux</a></li>
-            <li><a href="#blog">Blog</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+        <li class="nav navbar-nav">
+             <ul class="nav navbar-nav">
+     		   <li><a href="#Contact">Contact</a></li>
+
+	</div>
 </nav>
+
 
 
 
@@ -305,14 +301,14 @@
 						<!-- Page 1 -->
 				<div class="item active">  
 					<div class="carousel-page">
-						<img src="images/france.png" class="img-responsive" style="margin:0px auto;" />
+						<img src="images/france.png" class="img-responsive" style="margin:0px auto;max-height:100%;" />
 					</div> 
 					<div class="carousel-caption">Français - C2</div>
 				</div>   
 						<!-- Page 2 -->
 				<div class="item"> 
-					<div class="carousel-page"><img src="images/ru.png" class="img-responsive img-rounded" 
-	style="margin:0px auto;"  />
+					<div class="carousel-page"><img src="images/ru2.png" class="img-responsive img-rounded" 
+	style="margin:0px auto;max-height:100%;"  />
 					</div> 
 				<div class="carousel-caption">Anglais - B2</div>
 				</div>  
@@ -354,14 +350,14 @@
 						<!-- Page 1 -->
 				<div class="item active">  
 					<div class="carousel-page">
-						<img src="images/office.png" class="img-responsive" style="margin:0px auto;" />
+						<img src="images/office.png" class="img-responsive" style="margin:0px auto;max-height:100%;" />
 					</div> 
 					<div class="carousel-caption"> Pack Office</div>
 				</div>   
 						<!-- Page 2 -->
 				<div class="item"> 
 					<div class="carousel-page"><img src="images/rsx.png" class="img-responsive img-rounded" 
-	style="margin:0px auto;"  />
+	style="margin:0px auto;max-height:100%;"  />
 					</div> 
 				<div class="carousel-caption">Réseaux sociaux</div>
 				</div>  
@@ -413,20 +409,31 @@
 	<div id="Contact"> 
 	<h1>Contact</h1> 
 </div>
-		<p style="text-align:center;font-size:45px;font-family:Script">We keep in touch!</p>
+	<div class="textcontact">
+		<p style="text-align:center;font-family:Script">We keep in touch!</p>
+	</div>
 </br>
 </br>
-<p style="text-align:center;font-size:45px;font-family:Script">Sur les réseaux sociaux :</p>
+
+	<div class="textcontact">
+<p style="text-align:center;font-family:Script">Sur les réseaux sociaux :</p>
+	</div>
 </br>
+	<div class="logo">
 		<p id="mail" style="text-align:center"><a href="mailto:berenice.viviand@gmail.com"><img src = "http://zizaza.com/cache/big_thumb/iconset/580380/580390/PNG/256/web_flat_icon/mail_mail_icon_mail_png_flat_icon_web_icon_png_circle_icon.png" height="5%" width="5%" /></a>
-		<a href="https://twitter.com/Bereniiice_v"><img id"rsx" src = "http://www.practicepanther.com/wp-content/uploads/2015/01/twitter-flat-shadow-logo-icon.png" height="5%" width="5%"/></a>
+		<a href="https://twitter.com/Bereniiice_v"><img id="rsx" src = "http://www.practicepanther.com/wp-content/uploads/2015/01/twitter-flat-shadow-logo-icon.png" height="5%" width="5%"/></a>
 		<a href="http://www.viadeo.com/fr/profile/bérénice.viviand"> <img src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Viadeo-icon.png" height="5%" width="5%" /></a>
 		<a href="https://fr.linkedin.com/in/bereniceviviand"><img src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Linkedin-icon.png" height="5%" width="5%"/></a></p>
+	</div>
 </br>
 </br>
-		<p style="text-align:center;font-size:45px;font-family:Script">Sur mon blog : </p>
+	<div class="textcontact">
+		<p style="text-align:center;font-family:Script">Sur mon blog : </p>
+	</div>
 </br>
+	<div class="logo">
 		<p id="blog" style="text-align:center"><a href="#"><img src="https://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png" height="5%" width="5%"/></a></p>
+	</div>
 
 
 

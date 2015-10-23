@@ -138,7 +138,21 @@ a:hover{
 	display:inline;
 }	
 
+.textcontact{
+  font-size: 45px;
+}
 
+@media (max-width:320px) {  /*small mobile*/
+
+  .logo {
+    width: 400%;
+    padding-right: 300%;
+  }
+  
+  .textcontact {
+    font-size: 26px;
+    line-height: 10px;
+  }
 
 
 /* RESPONSIVE */
